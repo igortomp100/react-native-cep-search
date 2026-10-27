@@ -60,9 +60,13 @@ npm run web
 ```bash
 npm run typecheck
 npm run lint
+npm test
+npm run test:coverage
 ```
 
-Esses comandos verificam tipos e regras de código; o repositório ainda não possui uma suíte de testes automatizados configurada.
+Jest com jest-expo e React Native Testing Library verifica as consultas ao ViaCEP e a persistência dos endereços. A rede e o AsyncStorage são simulados: os testes funcionam sem internet ou aparelho conectado e não acessam os dados salvos no celular.
+
+Use `npm run test:watch` durante o desenvolvimento. A cobertura gerada por `npm run test:coverage` considera somente `src/services/enderecos.ts` e `src/hooks/useEnderecoStore.ts`. O relatório HTML fica em `coverage/lcov-report/index.html`. Consulte [a estratégia de testes](docs/TESTES.md) para entender os cenários e os limites desta etapa.
 
 ## Gerar um APK
 
