@@ -22,9 +22,18 @@ Aplicativo para encontrar e guardar endereços brasileiros, desenvolvido com Rea
 
 ## Prévia
 
-<p align="center">
-  <img src="docs/screenshots/home.png" alt="Home do Guardar CEP com um endereço salvo" width="320" />
-</p>
+<table>
+  <tr>
+    <th>Home — endereços salvos</th>
+    <th>Buscar CEP — opções de consulta</th>
+  </tr>
+  <tr>
+    <td><img src="docs/screenshots/home.png" alt="Home do Guardar CEP com um endereço salvo" width="320" /></td>
+    <td><img src="docs/screenshots/buscar-cep.png" alt="Tela Buscar CEP com o CEP 01001-000 preenchido, Praça da Sé salva e opções de busca por CEP, endereço e localização" width="320" /></td>
+  </tr>
+</table>
+
+A tela de busca oferece consultas por CEP, endereço ou localização. A busca pela localização do dispositivo está disponível no aplicativo nativo; as capturas acima foram feitas na versão web em tamanho de celular.
 
 ## Tecnologias
 
