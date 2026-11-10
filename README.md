@@ -44,8 +44,8 @@ React Native 0.88, React 19, Expo SDK 58, Expo Router, TypeScript, React Native 
 É necessário ter Node.js compatível com o Expo SDK 58 e npm instalados.
 
 ```bash
-git clone https://github.com/igortomp100/reactive-native-cep-search.git
-cd reactive-native-cep-search
+git clone https://github.com/igortomp100/react-native-cep-search.git
+cd react-native-cep-search
 npm ci
 npm start
 ```
